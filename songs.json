@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "hello-christmas-disco-snowman-by-night-shift",
+    "num": "01",
+    "title": "Disco Snowman by Night Shift",
+    "artist": "Hello Christmas",
+    "album": "Hello Christmas",
+    "trackNumber": 99,
+    "albumOrder": 99,
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/hello-christmas-disco-snowman-by-night-shift-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/n94kns8hgy9nh4x9kr0ca/disco-snowman-night-shift-MP3-mastered.mp3?rlkey=zuvnuyzabqv5ny6o2ex9agh74&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/n94kns8hgy9nh4x9kr0ca/disco-snowman-night-shift-MP3-mastered.mp3?rlkey=zuvnuyzabqv5ny6o2ex9agh74&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
+  }
+]
