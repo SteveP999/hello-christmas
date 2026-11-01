@@ -1,0 +1,13 @@
+{
+  "artist": "Hello Christmas",
+  "latestUrl": "latest.json",
+  "featuredTrack": {
+    "title": "",
+    "artist": "Hello Christmas",
+    "album": "",
+    "cover": "",
+    "audioSrc": "",
+    "videos": []
+  },
+  "tracks": []
+}
