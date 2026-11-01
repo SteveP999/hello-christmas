@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello, Christmas — Advent Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Barlow+Condensed:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#090806;
+  --cream:#f3ead9;
+  --gold:#d49a25;
+  --gold-lt:#f0c35a;
+  --green:#1f5c3f;
+  --green-lt:#2f8a5c;
+  --snow:#eef4f6;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:radial-gradient(ellipse at 50% -10%, #11241b 0%, var(--black) 55%);
+  color:var(--cream);
+  font-family:'Barlow',sans-serif;
+  font-weight:300;
+  min-height:100vh;
+}
+a{color:var(--gold-lt);}
+.top-link{
+  position:fixed; top:1rem; left:1rem; z-index:50;
+  font-family:'Barlow Condensed',sans-serif; letter-spacing:.14em; text-transform:uppercase;
+  font-size:.72rem; color:var(--cream); opacity:.65; text-decoration:none;
+  padding:.5rem .8rem; border:1px solid rgba(243,234,217,.25); border-radius:3px;
+  background:rgba(9,8,6,.4);
+}
+.top-link:hover{opacity:1;}
+
+/* ---------- Intro video stage ---------- */
+#intro-stage{
+  position:fixed; inset:0; z-index:100; background:#000;
+  display:flex; align-items:center; justify-content:center;
+  transition:opacity .6s ease;
+}
+#intro-stage.hidden{opacity:0; pointer-events:none;}
+#intro-video{width:100%; height:100%; object-fit:cover;}
+#intro-skip{
+  position:absolute; bottom:1.5rem; right:1.5rem;
+  font-family:'Barlow Condensed',sans-serif; letter-spacing:.14em; text-transform:uppercase;
+  font-size:.75rem; color:var(--cream); background:rgba(9,8,6,.55);
+  border:1px solid rgba(243,234,217,.35); border-radius:3px; padding:.55rem 1rem;
+  cursor:pointer;
+}
+#intro-fallback{
+  color:var(--cream); text-align:center; font-family:'Barlow Condensed',sans-serif;
+  letter-spacing:.1em; text-transform:uppercase; font-size:.9rem; opacity:.7;
+}
+
+/* ---------- Header ---------- */
+.calendar-header{
+  text-align:center; padding:3.5rem 1.5rem 1.5rem;
+}
+.eyebrow{
+  font-family:'Barlow Condensed',sans-serif; letter-spacing:.35em; text-transform:uppercase;
+  font-size:.72rem; color:var(--gold); margin-bottom:.4rem;
+}
+h1.title{
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:.02em;
+  font-size:clamp(2rem,6vw,3.4rem); margin:.1rem 0; color:var(--cream);
+}
+.subtitle{opacity:.7; font-size:.95rem; max-width:34rem; margin:.4rem auto 0;}
+#today-readout{opacity:.55; font-size:.8rem; margin-top:.6rem; font-family:'Barlow Condensed',sans-serif; letter-spacing:.08em; text-transform:uppercase;}
+
+/* ---------- Tree ---------- */
+.tree-wrap{
+  display:flex; flex-direction:column; align-items:center;
+  padding:1rem 1rem 5rem; gap:.6rem;
+}
+.tree-row{display:flex; gap:.6rem; justify-content:center; flex-wrap:nowrap;}
+.topper{font-size:1.8rem; margin-bottom:.2rem; filter:drop-shadow(0 0 10px var(--gold-lt));}
+
+.door{
+  --size:58px;
+  width:var(--size); height:var(--size);
+  border-radius:9px;
+  display:flex; align-items:center; justify-content:center;
+  position:relative;
+  font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.2rem;
+  background:linear-gradient(145deg,#15331f,#0d2015);
+  border:1px solid rgba(47,138,92,.5);
+  color:rgba(243,234,217,.35);
+  cursor:default;
+  transition:transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  user-select:none;
+}
+.door.open{
+  background:linear-gradient(145deg,var(--green-lt),var(--green));
+  border-color:var(--gold-lt);
+  color:var(--cream);
+  cursor:pointer;
+  box-shadow:0 0 0 rgba(240,195,90,0);
+  animation:doorGlow 2.6s ease-in-out infinite;
+}
+.door.open:hover{transform:translateY(-3px) scale(1.06);}
+.door.today{box-shadow:0 0 22px 4px rgba(240,195,90,.75);}
+.door.opened-seen{opacity:.75;}
+.door.opened-seen::after{
+  content:'✓'; position:absolute; top:-6px; right:-6px;
+  width:18px; height:18px; border-radius:50%; background:var(--gold);
+  color:var(--black); font-size:.65rem; display:flex; align-items:center; justify-content:center;
+  font-family:'Barlow',sans-serif; font-weight:600;
+}
+@keyframes doorGlow{
+  0%,100%{box-shadow:0 0 10px 1px rgba(240,195,90,.25);}
+  50%{box-shadow:0 0 16px 3px rgba(240,195,90,.55);}
+}
+@media (max-width:560px){
+  .door{--size:44px; font-size:1rem;}
+  .tree-row{gap:.4rem;}
+}
+
+.trunk{
+  width:40px; height:34px; margin-top:.3rem;
+  background:linear-gradient(145deg,#5a3a24,#3c2415);
+  border-radius:3px;
+}
+
+.not-open-note{
+  text-align:center; opacity:.6; font-size:.85rem; margin-top:1rem;
+  font-family:'Barlow Condensed',sans-serif; letter-spacing:.06em;
+}
+
+/* ---------- Reveal modal ---------- */
+#reveal-backdrop{
+  position:fixed; inset:0; background:rgba(5,4,3,.82); z-index:200;
+  display:none; align-items:center; justify-content:center; padding:1.5rem;
+}
+#reveal-backdrop.show{display:flex;}
+#reveal-card{
+  background:linear-gradient(160deg,#17140f,#0b0a08);
+  border:1px solid rgba(212,154,37,.4);
+  border-radius:10px; max-width:420px; width:100%;
+  padding:1.8rem 1.6rem 1.6rem; text-align:center; position:relative;
+}
+#reveal-close{
+  position:absolute; top:.7rem; right:.9rem; cursor:pointer;
+  color:var(--cream); opacity:.6; font-size:1.3rem; line-height:1; background:none; border:none;
+}
+#reveal-close:hover{opacity:1;}
+#reveal-day{
+  font-family:'Barlow Condensed',sans-serif; letter-spacing:.3em; text-transform:uppercase;
+  font-size:.72rem; color:var(--gold); margin-bottom:.6rem;
+}
+#reveal-cover{width:200px; height:200px; border-radius:8px; object-fit:cover; margin:0 auto .9rem; display:block; box-shadow:0 8px 30px rgba(0,0,0,.5);}
+#reveal-title{font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:1.3rem; margin:.1rem 0 .1rem;}
+#reveal-artist{opacity:.65; font-size:.85rem; margin-bottom:1rem;}
+#reveal-audio{width:100%;}
+</style>
+</head>
+<body>
+
+<a class="top-link" href="./">&larr; Hello, Christmas</a>
+
+<!-- Intro video stage: swap in the real file + poster when ready. Falls back silently if missing. -->
+<div id="intro-stage">
+  <video id="intro-video" autoplay muted playsinline></video>
+  <div id="intro-fallback" style="display:none;">Hello, Christmas</div>
+  <button id="intro-skip">Skip &rarr;</button>
+</div>
+
+<header class="calendar-header">
+  <div class="eyebrow">Hello Texas Records</div>
+  <h1 class="title">The Advent Calendar</h1>
+  <p class="subtitle">One song a day, all the way to Christmas. Open today&rsquo;s door &mdash; and every door before it.</p>
+  <div id="today-readout"></div>
+</header>
+
+<div class="tree-wrap">
+  <div class="topper">&#11088;</div>
+  <div id="tree" class="tree"></div>
+  <div class="trunk"></div>
+  <div class="not-open-note" id="not-open-note" style="display:none;"></div>
+</div>
+
+<div id="reveal-backdrop">
+  <div id="reveal-card">
+    <button id="reveal-close" aria-label="Close">&times;</button>
+    <div id="reveal-day"></div>
+    <img id="reveal-cover" src="" alt="">
+    <div id="reveal-title"></div>
+    <div id="reveal-artist"></div>
+    <audio id="reveal-audio" controls preload="none"></audio>
+  </div>
+</div>
+
+<script>
+/* ===========================================================
+   Hello, Christmas — Advent Calendar
+   Data-driven: doors.json maps day -> songId. Edit that file
+   to reassign which song plays behind which door — no code
+   changes needed.
+
+   TEST / PREVIEW OVERRIDE (remove or ignore once real Dec hits):
+     ?testday=15   -> pretend today is Dec 15 (doors 1-15 open)
+     ?testall=1    -> unlock all 24 doors regardless of date
+   With no override, the calendar only unlocks doors once the
+   real date is December of the current year, up through today.
+   =========================================================== */
+
+const ROWS = [1,2,3,4,5,4,5]; // visual tree shape, sums to 24
+const qs = new URLSearchParams(location.search);
+
+function computeUnlockedDay(){
+  if (qs.get('testall') === '1') return 24;
+  const testday = parseInt(qs.get('testday'), 10);
+  if (!isNaN(testday)) return Math.max(0, Math.min(24, testday));
+  const now = new Date();
+  if (now.getMonth() !== 11) return 0; // getMonth() is 0-indexed; 11 = December
+  return Math.min(24, now.getDate());
+}
+
+function seenKey(day){ return 'hc-advent-seen-' + day; }
+function markSeen(day){ try{ localStorage.setItem(seenKey(day), '1'); }catch(e){} }
+function wasSeen(day){ try{ return localStorage.getItem(seenKey(day)) === '1'; }catch(e){ return false; } }
+
+async function loadData(){
+  const [doorsRes, songsRes] = await Promise.all([
+    fetch('doors.json'), fetch('songs.json')
+  ]);
+  const doors = await doorsRes.json();
+  const songs = await songsRes.json();
+  const songsById = {};
+  songs.forEach(s => { songsById[s.id] = s; });
+  return { doors, songsById };
+}
+
+function buildTree(doors, unlockedThrough, todayDay){
+  const tree = document.getElementById('tree');
+  tree.innerHTML = '';
+  let dayCursor = 1;
+  ROWS.forEach(rowCount => {
+    const row = document.createElement('div');
+    row.className = 'tree-row';
+    for (let i = 0; i < rowCount; i++){
+      const day = dayCursor++;
+      const doorEl = document.createElement('div');
+      doorEl.className = 'door';
+      doorEl.textContent = day;
+      doorEl.dataset.day = day;
+      const isOpen = day <= unlockedThrough;
+      if (isOpen) doorEl.classList.add('open');
+      if (day === todayDay && day <= unlockedThrough) doorEl.classList.add('today');
+      if (isOpen && wasSeen(day)) doorEl.classList.add('opened-seen');
+      row.appendChild(doorEl);
+    }
+    tree.appendChild(row);
+  });
+}
+
+function openReveal(day, doors, songsById){
+  const entry = doors.find(d => d.day === day);
+  if (!entry) return;
+  const song = songsById[entry.songId];
+  if (!song) return;
+  document.getElementById('reveal-day').textContent = 'December ' + day;
+  document.getElementById('reveal-cover').src = song.cover || song.albumCover || '';
+  document.getElementById('reveal-title').textContent = song.title || '';
+  document.getElementById('reveal-artist').textContent = song.artist || '';
+  const audio = document.getElementById('reveal-audio');
+  audio.src = song.audio || song.audioSrc || '';
+  document.getElementById('reveal-backdrop').classList.add('show');
+  markSeen(day);
+  document.querySelector('.door[data-day="' + day + '"]')?.classList.add('opened-seen');
+}
+
+function closeReveal(){
+  const audio = document.getElementById('reveal-audio');
+  audio.pause();
+  document.getElementById('reveal-backdrop').classList.remove('show');
+}
+
+function setupIntro(){
+  const stage = document.getElementById('intro-stage');
+  const video = document.getElementById('intro-video');
+  const fallback = document.getElementById('intro-fallback');
+  const skip = document.getElementById('intro-skip');
+  const dismiss = () => stage.classList.add('hidden');
+
+  // Drop the real intro file in as intro.mp4 (same folder) once it exists.
+  video.src = 'intro.mp4';
+  video.addEventListener('error', () => { video.style.display = 'none'; fallback.style.display = 'block'; });
+  video.addEventListener('ended', dismiss);
+  skip.addEventListener('click', dismiss);
+
+  // If someone already watched it this session, don't force it again.
+  try{
+    if (sessionStorage.getItem('hc-advent-intro-seen') === '1'){ dismiss(); return; }
+    sessionStorage.setItem('hc-advent-intro-seen', '1');
+  }catch(e){}
+}
+
+(async function init(){
+  setupIntro();
+
+  const { doors, songsById } = await loadData();
+  const unlockedThrough = computeUnlockedDay();
+  const now = new Date();
+  const todayDay = (now.getMonth() === 11) ? now.getDate() : (qs.get('testday') ? parseInt(qs.get('testday'),10) : 0);
+
+  buildTree(doors, unlockedThrough, todayDay);
+
+  const readout = document.getElementById('today-readout');
+  const note = document.getElementById('not-open-note');
+  if (unlockedThrough === 0){
+    readout.textContent = 'The calendar opens December 1st.';
+    note.style.display = 'block';
+    note.textContent = 'Add ?testall=1 to the URL to preview every door before launch.';
+  } else {
+    readout.textContent = unlockedThrough + ' of 24 doors open so far.';
+  }
+
+  document.getElementById('tree').addEventListener('click', (e) => {
+    const doorEl = e.target.closest('.door.open');
+    if (!doorEl) return;
+    openReveal(parseInt(doorEl.dataset.day, 10), doors, songsById);
+  });
+  document.getElementById('reveal-close').addEventListener('click', closeReveal);
+  document.getElementById('reveal-backdrop').addEventListener('click', (e) => {
+    if (e.target.id === 'reveal-backdrop') closeReveal();
+  });
+})();
+</script>
+</body>
+</html>
