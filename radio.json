@@ -2,11 +2,11 @@
   "artist": "Hello Christmas",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "",
+    "title": "See You In December by Vincent Cole",
     "artist": "Hello Christmas",
-    "album": "",
-    "cover": "",
-    "audioSrc": "",
+    "album": "Hello Christmas",
+    "cover": "images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/6ypbn6yk9t0i78w847oz6/CHRISTMAS-See-You-In-December-Vincent-Cole-Core-MP3-mastered.mp3?rlkey=miptm7ssmisfmlqes4ybuj2yr&raw=1",
     "videos": []
   },
   "tracks": []

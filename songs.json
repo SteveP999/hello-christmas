@@ -5,8 +5,8 @@
     "title": "Disco Snowman by Night Shift",
     "artist": "Hello Christmas",
     "album": "Hello Christmas",
-    "trackNumber": 99,
-    "albumOrder": 99,
+    "trackNumber": 1,
+    "albumOrder": 1,
     "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
@@ -18,7 +18,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-batteries-not-included-by-vanta",
@@ -28,7 +32,7 @@
     "album": "Hello Christmas",
     "trackNumber": 2,
     "albumOrder": 2,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/hello-christmas-batteries-not-included-by-vanta-cover.png",
@@ -39,7 +43,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-blitzen-s-got-the-blues",
@@ -49,7 +57,7 @@
     "album": "Hello Christmas",
     "trackNumber": 3,
     "albumOrder": 3,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/hello-christmas-blitzen-s-got-the-blues-cover.png",
@@ -74,7 +82,7 @@
     "album": "Hello Christmas",
     "trackNumber": 4,
     "albumOrder": 4,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/hello-christmas-my-favorite-kind-of-christmas-by-avery-ivey-cover.png",
@@ -95,7 +103,7 @@
     "album": "Hello Christmas",
     "trackNumber": 5,
     "albumOrder": 5,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/hello-christmas-no-silent-night-by-ivey-wilder-cover.png",
@@ -113,10 +121,10 @@
     "num": "06",
     "title": "Santa's Got Soul by Quincy Cade",
     "artist": "Hello Christmas",
-    "album": "",
+    "album": "Hello Christmas",
     "trackNumber": 6,
     "albumOrder": 6,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": false,
     "cover": "images/covers/hello-christmas-santa-s-got-soul-by-quincy-cade-cover.png",
@@ -127,7 +135,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-see-you-in-december-by-vincent-cole",
@@ -137,7 +149,7 @@
     "album": "Hello Christmas",
     "trackNumber": 7,
     "albumOrder": 7,
-    "albumCover": "",
+    "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
     "isLatest": true,
     "cover": "images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",

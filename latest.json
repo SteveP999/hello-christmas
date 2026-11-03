@@ -1,11 +1,11 @@
 {
-  "title": "New Music Coming Soon",
+  "title": "See You In December by Vincent Cole",
   "artist": "Hello Christmas",
-  "album": "",
+  "album": "Hello Christmas",
   "type": "Latest Single",
-  "cover": "",
-  "image": "",
-  "audio": "",
-  "audioSrc": "",
+  "cover": "images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",
+  "image": "images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",
+  "audio": "https://www.dropbox.com/scl/fi/6ypbn6yk9t0i78w847oz6/CHRISTMAS-See-You-In-December-Vincent-Cole-Core-MP3-mastered.mp3?rlkey=miptm7ssmisfmlqes4ybuj2yr&raw=1",
+  "audioSrc": "https://www.dropbox.com/scl/fi/6ypbn6yk9t0i78w847oz6/CHRISTMAS-See-You-In-December-Vincent-Cole-Core-MP3-mastered.mp3?rlkey=miptm7ssmisfmlqes4ybuj2yr&raw=1",
   "videos": []
 }
