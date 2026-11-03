@@ -2,11 +2,11 @@
   "artist": "Hello Christmas",
   "latestUrl": "latest.json",
   "featuredTrack": {
-    "title": "See You In December by Vincent Cole",
+    "title": "Snow Globe by PULSE7",
     "artist": "Hello Christmas",
     "album": "Hello Christmas",
-    "cover": "images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",
-    "audioSrc": "https://www.dropbox.com/scl/fi/6ypbn6yk9t0i78w847oz6/CHRISTMAS-See-You-In-December-Vincent-Cole-Core-MP3-mastered.mp3?rlkey=miptm7ssmisfmlqes4ybuj2yr&raw=1",
+    "cover": "images/covers/hello-christmas-snow-globe-by-pulse7-cover.png",
+    "audioSrc": "https://www.dropbox.com/scl/fi/mz9yy02zfqspp2iubfier/CHRISTMAS-Snow-Globe-PULSE7-MP3-mastered.mp3?rlkey=riq4fm6c27ene1d9i7xgady9u&raw=1",
     "videos": []
   },
   "tracks": []
