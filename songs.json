@@ -34,13 +34,13 @@
     "albumOrder": 2,
     "albumCover": "images/covers/hello-christmas-hello-christmas-ALBUM-cover.png",
     "type": "single",
-    "isLatest": true,
+    "isLatest": false,
     "cover": "images/covers/hello-christmas-a-texas-holiday-by-sawyer-price-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/uvo4bs08ylr5z4l8z79qb/sawyer-price-texas-holiday-MP3-mastered.mp3?rlkey=lnewm25lhnmpppd7not456tfz&st=iescfiz9&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/uvo4bs08ylr5z4l8z79qb/sawyer-price-texas-holiday-MP3-mastered.mp3?rlkey=lnewm25lhnmpppd7not456tfz&st=iescfiz9&raw=1",
     "videos": [],
     "includeOnRadio": false,
-    "includeOnHomepage": true,
+    "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
     "streaming": {}
@@ -558,5 +558,26 @@
       "apple": "",
       "youtubeMusic": ""
     }
+  },
+  {
+    "id": "hello-christmas-christmas-eve-with-you-by-the-long-weekend",
+    "num": "25",
+    "title": "Christmas Eve With You by The Long Weekend",
+    "artist": "Hello Christmas",
+    "album": "Hello Christmas",
+    "trackNumber": 25,
+    "albumOrder": 25,
+    "albumCover": "",
+    "type": "single",
+    "isLatest": true,
+    "cover": "images/covers/hello-christmas-christmas-eve-with-you-by-the-long-weekend-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/51nzmxeiftbcp7sc4toxz/long-weekend-christmas-eve-with-you-MP3-mastered.mp3?rlkey=xl46pelp21ir3w32u6zs0qzjz&st=fxb9qa5d&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/51nzmxeiftbcp7sc4toxz/long-weekend-christmas-eve-with-you-MP3-mastered.mp3?rlkey=xl46pelp21ir3w32u6zs0qzjz&st=fxb9qa5d&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": true,
+    "explicit": false,
+    "tags": [],
+    "streaming": {}
   }
 ]
