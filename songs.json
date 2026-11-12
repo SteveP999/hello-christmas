@@ -43,7 +43,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-see-you-in-december-by-vincent-cole",
@@ -89,7 +93,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-santa-s-got-soul-by-quincy-cade",
@@ -135,7 +143,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-batteries-not-included-by-vanta",
@@ -256,7 +268,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-blitzen-s-got-the-blues",
@@ -302,7 +318,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-santa-tengo-un-problema-by-rio-valencia",
@@ -348,7 +368,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-another-perfect-christmas-by-western-fires",
@@ -369,7 +393,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-everybody-s-here-by-skyline-theory",
@@ -415,7 +443,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-no-silent-night-by-ivey-wilder",
@@ -486,7 +518,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-santa-don-t-start-with-me-by-riven-ashton",
@@ -507,7 +543,11 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-it-ain-t-christmas-till-by-hello-texas",
@@ -578,7 +618,36 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
+  },
+  {
+    "id": "hello-christmas-what-to-give-by-lori-hayes",
+    "num": "26",
+    "title": "What to Give by Lori Hayes",
+    "artist": "Hello Christmas",
+    "album": "Hello Christmas",
+    "trackNumber": 26,
+    "albumOrder": 24,
+    "albumCover": "images/covers/hello-christmas-cover-1x1.png",
+    "type": "single",
+    "isLatest": false,
+    "cover": "images/covers/hello-christmas-what-to-give-by-lori-hayes-cover.png",
+    "audio": "https://www.dropbox.com/scl/fi/r6jodwy802chde5wj8i7q/lori-hayes-wht-to-give-MP3-mastered.mp3?rlkey=hgy9chompl5pcs9a5ya4jw6r7&st=0shb7ie3&raw=1",
+    "audioSrc": "https://www.dropbox.com/scl/fi/r6jodwy802chde5wj8i7q/lori-hayes-wht-to-give-MP3-mastered.mp3?rlkey=hgy9chompl5pcs9a5ya4jw6r7&st=0shb7ie3&raw=1",
+    "videos": [],
+    "includeOnRadio": false,
+    "includeOnHomepage": false,
+    "explicit": false,
+    "tags": [],
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-still-just-a-kid-by-elliott-kessler",
@@ -599,37 +668,20 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
-  },
-  {
-    "id": "hello-christmas-what-to-give-by-lori-hayes",
-    "num": "24",
-    "title": "What to Give by Lori Hayes",
-    "artist": "Hello Christmas",
-    "album": "Hello Christmas",
-    "trackNumber": 24,
-    "albumOrder": 24,
-    "albumCover": "images/covers/hello-christmas-cover-1x1.png",
-    "type": "single",
-    "isLatest": false,
-    "cover": "images/covers/hello-christmas-what-to-give-by-lori-hayes-cover.png",
-    "audio": "https://www.dropbox.com/scl/fi/r6jodwy802chde5wj8i7q/lori-hayes-wht-to-give-MP3-mastered.mp3?rlkey=hgy9chompl5pcs9a5ya4jw6r7&st=0shb7ie3&raw=1",
-    "audioSrc": "https://www.dropbox.com/scl/fi/r6jodwy802chde5wj8i7q/lori-hayes-wht-to-give-MP3-mastered.mp3?rlkey=hgy9chompl5pcs9a5ya4jw6r7&st=0shb7ie3&raw=1",
-    "videos": [],
-    "includeOnRadio": false,
-    "includeOnHomepage": false,
-    "explicit": false,
-    "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-peace-to-take-along-by-taylor-martin",
-    "num": "01",
+    "num": "28",
     "title": "Peace to Take Along by Taylor Martin",
     "artist": "Hello Christmas",
     "album": "Hello Christmas",
-    "trackNumber": 99,
-    "albumOrder": 99,
+    "trackNumber": 28,
+    "albumOrder": 28,
     "albumCover": "images/covers/hello-christmas-cover-1x1.png",
     "type": "single",
     "isLatest": false,
@@ -641,15 +693,19 @@
     "includeOnHomepage": false,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   },
   {
     "id": "hello-christmas-heavenly-peace-by-hill-country-line",
-    "num": "30",
+    "num": "29",
     "title": "Heavenly Peace by Hill Country Line",
     "artist": "Hello Christmas",
     "album": "Hello Christmas",
-    "trackNumber": 30,
+    "trackNumber": 29,
     "albumOrder": 30,
     "albumCover": "images/covers/hello-christmas-cover-1x1.png",
     "type": "single",
@@ -662,6 +718,10 @@
     "includeOnHomepage": true,
     "explicit": false,
     "tags": [],
-    "streaming": {}
+    "streaming": {
+      "spotify": "",
+      "apple": "",
+      "youtubeMusic": ""
+    }
   }
 ]
