@@ -568,13 +568,7 @@
     "cover": "images/covers/hello-christmas-santa-don-t-start-with-me-by-riven-ashton-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/8lp1cazy15fyp8uiubzg9/riven-ashton-santa-dont-start-with-me-MP3-mastered.mp3?rlkey=ui5xgapm11ycndelhpq0vqghs&st=n9tmufb2&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/8lp1cazy15fyp8uiubzg9/riven-ashton-santa-dont-start-with-me-MP3-mastered.mp3?rlkey=ui5xgapm11ycndelhpq0vqghs&st=n9tmufb2&raw=1",
-    "videos": [
-      {
-        "youtube": "11/08/2026",
-        "title": "Official Video",
-        "order": 1
-      }
-    ],
+    "videos": [],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
