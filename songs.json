@@ -13,7 +13,13 @@
     "cover": "images/covers/hello-christmas-disco-snowman-by-night-shift-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/n94kns8hgy9nh4x9kr0ca/disco-snowman-night-shift-MP3-mastered.mp3?rlkey=zuvnuyzabqv5ny6o2ex9agh74&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/n94kns8hgy9nh4x9kr0ca/disco-snowman-night-shift-MP3-mastered.mp3?rlkey=zuvnuyzabqv5ny6o2ex9agh74&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/slyYp5TAP0o",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
