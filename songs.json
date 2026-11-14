@@ -106,7 +106,13 @@
     "cover": "images/covers/hello-christmas-paper-and-bows-by-the-brightons-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/s0pb6h1dbvs9l1olq4j8f/brightons-paper-and-bows-MP3-mastered.mp3?rlkey=uf7ch117jurl0wiext2ct4a48&st=0d5kil9n&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/s0pb6h1dbvs9l1olq4j8f/brightons-paper-and-bows-MP3-mastered.mp3?rlkey=uf7ch117jurl0wiext2ct4a48&st=0d5kil9n&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/h9_7kWWI0KY",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
