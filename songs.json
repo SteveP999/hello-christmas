@@ -168,7 +168,13 @@
     "cover": "images/covers/hello-christmas-candy-cane-hearts-by-the-honey-belles-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/pf45izvt36rirbig6nyh3/honey-belles-candy-cane-hearts-MP3-mastered.mp3?rlkey=maol7emtezxxstwt0glneoo5b&st=h2f7g8y8&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/pf45izvt36rirbig6nyh3/honey-belles-candy-cane-hearts-MP3-mastered.mp3?rlkey=maol7emtezxxstwt0glneoo5b&st=h2f7g8y8&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/hd7TTwNuozE",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
