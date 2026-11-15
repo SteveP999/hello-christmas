@@ -292,7 +292,13 @@
     "cover": "images/covers/hello-christmas-leave-a-little-christmas-for-me-by-twyla-tate-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/flnd9jxx98t5sektzx2wt/CHRISTMAS-Twayla-Tate-Leave-a-Little-Christmas-For-Me-MP3-mastered.mp3?rlkey=ob2wbu9ybpzi0aj1i6dehi955&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/flnd9jxx98t5sektzx2wt/CHRISTMAS-Twayla-Tate-Leave-a-Little-Christmas-For-Me-MP3-mastered.mp3?rlkey=ob2wbu9ybpzi0aj1i6dehi955&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/TamKVV1NwkQ",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
