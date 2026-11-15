@@ -323,7 +323,13 @@
     "cover": "images/covers/hello-christmas-all-i-got-was-trouble-by-cheap-silver-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/fbpm3zysp13yy6vs74ex7/cheap-silver-all-I-got-was-trouble-MP3-mastered.mp3?rlkey=kjzzhexszksv5cyiadbzykk35&st=m0ikjmdf&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/fbpm3zysp13yy6vs74ex7/cheap-silver-all-I-got-was-trouble-MP3-mastered.mp3?rlkey=kjzzhexszksv5cyiadbzykk35&st=m0ikjmdf&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/pbfTrN3MMYU",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
