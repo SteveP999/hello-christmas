@@ -199,7 +199,13 @@
     "cover": "images/covers/hello-christmas-batteries-not-included-by-vanta-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/lcfno54jcxlqnu0o8kn26/CHRISTMAS-Batteries-Not-Included-VANTA-MP3-mastered.mp3?rlkey=fz1ilmjbpd0j5i45yfalgoj0z&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/lcfno54jcxlqnu0o8kn26/CHRISTMAS-Batteries-Not-Included-VANTA-MP3-mastered.mp3?rlkey=fz1ilmjbpd0j5i45yfalgoj0z&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/VDE7urDYwkc",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
