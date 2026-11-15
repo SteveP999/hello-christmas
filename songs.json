@@ -230,7 +230,13 @@
     "cover": "images/covers/hello-christmas-this-time-next-christmas-by-daniel-kincaid-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/8prb5g808fy0z9xtxc5j0/daniel-kincaid-this-time-next-christmas-MP3-mastered.mp3?rlkey=tsp2jev3d25iexszjcdtuom7j&st=nbpi1l6b&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/8prb5g808fy0z9xtxc5j0/daniel-kincaid-this-time-next-christmas-MP3-mastered.mp3?rlkey=tsp2jev3d25iexszjcdtuom7j&st=nbpi1l6b&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/KB3cHNEjiuk",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
