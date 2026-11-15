@@ -261,7 +261,13 @@
     "cover": "images/covers/hello-christmas-snow-globe-by-pulse7-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/mz9yy02zfqspp2iubfier/CHRISTMAS-Snow-Globe-PULSE7-MP3-mastered.mp3?rlkey=riq4fm6c27ene1d9i7xgady9u&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/mz9yy02zfqspp2iubfier/CHRISTMAS-Snow-Globe-PULSE7-MP3-mastered.mp3?rlkey=riq4fm6c27ene1d9i7xgady9u&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/8gnxxCRzkWg",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
