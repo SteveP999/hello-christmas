@@ -354,7 +354,13 @@
     "cover": "images/covers/hello-christmas-blitzen-s-got-the-blues-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/pwoj6cel83rh5gxzde59v/CHRISTMAS-Blitzen-s-Got-the-Blues-Harlan-Rhodes-MP3-mastered.mp3?rlkey=zupp1vox12o2mzdy47mlphmaj&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/pwoj6cel83rh5gxzde59v/CHRISTMAS-Blitzen-s-Got-the-Blues-Harlan-Rhodes-MP3-mastered.mp3?rlkey=zupp1vox12o2mzdy47mlphmaj&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/AwT6tflYUA4",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
