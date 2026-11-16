@@ -602,7 +602,13 @@
     "cover": "images/covers/hello-christmas-pass-it-on-by-brent-alan-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/to0wpewh0j3p5tje8oclp/CHRISTMAS-Pass-It-On-Brent-Alan-MP3-mastered.mp3?rlkey=b92njzrp1hya60lnm9ht4kd4c&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/to0wpewh0j3p5tje8oclp/CHRISTMAS-Pass-It-On-Brent-Alan-MP3-mastered.mp3?rlkey=b92njzrp1hya60lnm9ht4kd4c&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/fxDnvvd9qKM",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
