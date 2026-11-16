@@ -509,7 +509,13 @@
     "cover": "images/covers/hello-christmas-everybody-s-here-by-skyline-theory-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/aquo3pe1h9m8v2vocc4uf/CHRISTMAS-Everybody-s-Here-Skyline-Theory-MP3-mastered.mp3?rlkey=1rb3fhucjv8rybwwapctvtv8d&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/aquo3pe1h9m8v2vocc4uf/CHRISTMAS-Everybody-s-Here-Skyline-Theory-MP3-mastered.mp3?rlkey=1rb3fhucjv8rybwwapctvtv8d&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/L3Dws8I7KsU",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
