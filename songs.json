@@ -416,7 +416,13 @@
     "cover": "images/covers/hello-christmas-santa-tengo-un-problema-by-rio-valencia-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/k56uizivzlltqhs6dix57/CHRISTMAS-Rio-Valencia-Santa-Tengo-un-Problema-MP3-mastered.mp3?rlkey=xj9d81cadq3zsi6afr51pvbzj&st=54letuqy&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/k56uizivzlltqhs6dix57/CHRISTMAS-Rio-Valencia-Santa-Tengo-un-Problema-MP3-mastered.mp3?rlkey=xj9d81cadq3zsi6afr51pvbzj&st=54letuqy&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/G8CO71dWoDw",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
