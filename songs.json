@@ -447,7 +447,13 @@
     "cover": "images/covers/hello-christmas-the-naughty-list-by-nightstrike-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/tom02runl51jfkszt8wre/nightstrike-the-naughty-list-MP3-mastered.mp3?rlkey=qz9lefbvqbn6d84rc511qzxtf&st=m8nlht0m&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/tom02runl51jfkszt8wre/nightstrike-the-naughty-list-MP3-mastered.mp3?rlkey=qz9lefbvqbn6d84rc511qzxtf&st=m8nlht0m&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/qRIpdq3YD4g",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
