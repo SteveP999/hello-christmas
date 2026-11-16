@@ -571,7 +571,13 @@
     "cover": "images/covers/hello-christmas-no-silent-night-by-ivey-wilder-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/3z0f3371ijbcbd61ilngx/CHRISTMAS-No-Silent-Night-Ivey-Wilder-MP3-mastered.mp3?rlkey=h4bzv0gst7hnphqedk25dalqm&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/3z0f3371ijbcbd61ilngx/CHRISTMAS-No-Silent-Night-Ivey-Wilder-MP3-mastered.mp3?rlkey=h4bzv0gst7hnphqedk25dalqm&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/b5qm-wO_3TA",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
