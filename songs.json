@@ -385,7 +385,13 @@
     "cover": "images/covers/hello-christmas-twelve-nights-of-heartbreak-by-darrell-clayborn-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/00xbhoetoeiggbe6ue8jr/darrell-clayborn-twelve-nights-of-heartbreak-MP3-mastered.mp3?rlkey=io3cq51iq0001x5sgk1w1hu2l&st=ndvofujx&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/00xbhoetoeiggbe6ue8jr/darrell-clayborn-twelve-nights-of-heartbreak-MP3-mastered.mp3?rlkey=io3cq51iq0001x5sgk1w1hu2l&st=ndvofujx&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/bXRsdWwdUwg",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
