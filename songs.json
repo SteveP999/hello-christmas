@@ -540,7 +540,13 @@
     "cover": "images/covers/hello-christmas-single-bells-by-bailey-wade-cover.png",
     "audio": "https://www.dropbox.com/scl/fi/vur2qwh8r2aj8mb49heod/bailey-wade-single-bells-MP3-mastered.mp3?rlkey=wzl34go3cd24nqz5yvs23j2zx&st=7l6j1stx&raw=1",
     "audioSrc": "https://www.dropbox.com/scl/fi/vur2qwh8r2aj8mb49heod/bailey-wade-single-bells-MP3-mastered.mp3?rlkey=wzl34go3cd24nqz5yvs23j2zx&st=7l6j1stx&raw=1",
-    "videos": [],
+    "videos": [
+      {
+        "youtube": "https://youtu.be/6juHvafqrmM",
+        "title": "Official Video",
+        "order": 1
+      }
+    ],
     "includeOnRadio": false,
     "includeOnHomepage": false,
     "explicit": false,
